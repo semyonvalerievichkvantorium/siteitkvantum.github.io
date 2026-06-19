@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 400px;
+}
+
+/* Настрйока шапки сайта */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: rgb(214, 209, 209);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: sticky;
+    top: 0;
+}
+header > div {
+    font-size: 30px;
+    color: #4361ee;
+    font-weight: 600;
+}
+header > nav > a {
+    text-decoration: none;
+    font-size: 26px;
+    color: #2b2d42;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+/* CЕКЦИЯ C ГЕРОЕМ */
+.hero {
+    text-align: center;
+    background-color: rgb(232, 244, 244);
+}
+.hero img {
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.hero h1 {
+    color: #2b2d42;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.hero p {
+    font-size: 25px;
+    color: #2b2d42;
+    padding-bottom: 50px;
+}
+.hero hr {
+    border: none;
+    border-top: 1px solid #dedfea;
+}
+/* Cекция с увлечения */
+section {
+    background-color: rgb(232, 244, 244);
+}
+section > h2{
+    text-align: center;
+    font-size: 30px;
+    color: #2b2d42;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.hobby {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 35px;
+    list-style: none;
+    padding-bottom: 50px;
+}
+.hobby li {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-size: 20px;
+    box-shadow: 21px 14px 17px 8px rgba(34, 60, 80, 0.3);
+}
+
+/* CЕКЦИЯ НАВЫКИ */
+.skills-card {
+    width: 180px;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 25px;
+    text-align: center;  
+}
+.skills-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+
+
+}
+.skills-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+.skills-card p {
+    font-size: 16px;
+}
+.skills-list {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding-bottom: 80px;
+}
+
+/* СЕКЦИЯ ДОСТИЖЕНИЙ */
+.learned-card {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    overflow: hidden;
+    padding: 0 0 20px 0;
+    transition: all 0.2s;
+}
+.learned-icon {
+    height: 120px;
+    background-color: #4f5165;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.learned-card:hover {
+    transform: translateY(-5px);
+}
+.learned-card h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.learned-card p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.learned-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+/* Подвал */
+footer {
+    background-color: #1e2a3e;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+}
